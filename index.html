@@ -6,74 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="treweb 12 | 2 : The Tampere web development / design meetup" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/1140.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/styles.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 
     <title>treweb 12 | 2</title>
   </head>
 
   <body>
+    <div class="container">
+      <div class="row" id="header">
+        <div class="twelvecol last">
+          <h1 id="treweb-logo">treweb 12&nbsp;|&nbsp;2</h1>
+        </div>
+      </div>
+      <div class="row" id="tagline">
+        <div class="twelvecol last">
+          <h2>Web development / design meetup</h2>
+          <p>November 10, 2012 @ Uusi Tehdas, Tampere</p>
+        </div>
+      </div>
+      <div class="row" id="content">
+        <div class="fourcol">
+          <h2>About</h2>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
+          <p>The second bi-annual Tampere Web geek meetup is just around the corner. Join us for a nice day of presentations, networking and possibly a beer or two!</p>
+          <p>The event is hosted in co-operation with the awesome guys & gals at Devaamo and New Factory, and sponsored by <a href="http://www.leonidasoy.fi/">Leonidas</a> and <a href="http://www.futurice.com/">Futurice</a>.</p>
 
-          <img id="treweb_logo" src="images/treweb-logo.png" alt="treweb 2012 | 2" />
-          <h1 id="project_title">treweb 12&nbsp;|&nbsp;2</h1>
-          <h2 id="project_tagline">the tampere web development / <br />design meetup</h2>
+          <h2>Tickets</h2>
+          <p><strong>Get your (free) ticket at</strong> <a href="http://treweb.eventbrite.com">http://treweb.eventbrite.com</a> before it's too late!</p>
 
-        </header>
+        </div>
+        <div class="eightcol last">
+
+          <h2>Talks</h2>
+          <p>Here's the fantastic folks who have offered to present their experiences. Would you like to as well? If so, please register your talk: <a href="http://treweb.wufoo.com/forms/treweb-12-2-speakers/">http://treweb.wufoo.com/forms/treweb-12-2-speakers/</a></p>
+
+          <table>
+            <tr>
+              <td class="name">Janne&nbsp;Kallunki</td><td class="topic">Pushing the limits of mobile WebKit</td>
+            </tr>
+            <tr>
+              <td class="name">Jarkko&nbsp;Laine</td><td class="topic">Scaling your frontend – graphics in the era of retina screens</td>
+            </tr>
+            <tr>
+              <td class="name">Olli&nbsp;Mahlamäki</td><td class="topic">jQuery Mobile - the Good, the Bad and the Ugly</td>
+            </tr>
+            <tr>
+              <td class="name">Antti&nbsp;Järvinen</td><td class="topic">Enterprise Javascript with XMLVM</td>
+            </tr>
+            <tr>
+              <td class="name">Jouni&nbsp;Kaplas</td><td class="topic">Windows 8 + JavaScript. Does it really suck?</td>
+            </tr>
+            <tr>
+              <td class="name">Timo&nbsp;Lyytinen</td><td class="topic">Building single page web applications with MarionetteJS</td>
+            </tr>
+            <tr>
+              <td class="name">Jaakko&nbsp;Salonen</td><td class="topic">Silver Bullet Cloud Unicorn Stories - Or: Lessons Learned from Using Node.js in Production</td>
+            </tr>
+          </table>
+
+          <p>The exact schedule is yet to be determined. Watch this space for updates.</p>
+        </div>
+      </div>
+      <div class="row" id="footer">
+        <div class="twelvecol">
+          <p class="copyright">treweb 12 | 2 &mdash; maintained by <a href="https://github.com/treweb">treweb</a></p>
+        </div>
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>The second bi-annual Tampere Web geek meetup is just around the corner. Join us for a nice day of presentations, networking and possibly a beer or two!</p>
-        <p>The event is hosted in co-operation with the awesome guys & gals at Devaamo and New Factory, and sponsored by <a href="http://www.leonidasoy.fi/">Leonidas</a> and <a href="http://www.futurice.com/">Futurice</a>.</p>
-
-        <p><strong>Get your (free) ticket at</strong> <a href="http://treweb.eventbrite.com">http://treweb.eventbrite.com</a> before it's too late!</p>
-
-      </section>
-      <section id="schedule" class="inner">
-        <h2>Talks</h2>
-        <p>Here's the fantastic folks who have offered to present their experiences. Would you like to as well? If so, please register your talk: <a href="http://treweb.wufoo.com/forms/treweb-12-2-speakers/">http://treweb.wufoo.com/forms/treweb-12-2-speakers/</a></p>
-
-        <ul id="talks">
-          <li>
-            <strong>Janne Kallunki</strong>: Pushing the limits of mobile WebKit
-          </li>
-          <li>
-            <strong>Jarkko Laine</strong>: Scaling your frontend – graphics in the era of retina screens
-          </li>
-          <li>
-            <strong>Olli Mahlamäki</strong>: jQuery Mobile - the Good, the Bad and the Ugly
-          </li>
-          <li>
-            <strong>Antti Järvinen</strong>: Enterprise Javascript with XMLVM
-          </li>
-          <li>
-            <strong>Jouni Kaplas</strong>: Windows 8 + JavaScript. Does it really suck?
-          </li>
-          <li>
-            <strong>Timo Lyytinen</strong>: Building single page web applications with MarionetteJS
-          </li>
-          <li>
-            <strong>Jaakko Salonen</strong>: Silver Bullet Cloud Unicorn Stories - Or: Lessons Learned from Using Node.js in Production
-          </li>
-        </ul>
-
-        <p>The exact schedule is yet to be determined. Watch this space for updates.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">treweb 12 | 2<br />
-          maintained by <a href="https://github.com/treweb">treweb</a></p>
-      </footer>
-    </div>
-
-
-
   </body>
 </html>
