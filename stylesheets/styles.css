@@ -23,6 +23,17 @@
 		margin: 20px 0;
 	}
 
+	#treweb-14-logo {
+		width: 100%;
+		height: 134px;
+		display: block;
+		background: transparent url('../images/treweb-logo-225.png') no-repeat center center;
+		text-indent: -99999px;
+		font-size: 1px;
+		overflow: hidden;
+		margin: 20px 0;
+	}
+
 	#tagline {
 		text-align: center;
 		font-size: 1.4em;
@@ -112,6 +123,10 @@
 		padding-bottom: 2em;
 	}
 
+	#soon {
+		text-align: center;
+	}
+
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
@@ -136,6 +151,11 @@
 	#treweb-logo {
 		background-image: url('../images/treweb-logo-horizontal-450.png');
 		background-size: 225px 225px;
+	}
+
+	#treweb-14-logo {
+		background-image: url('../images/treweb-logo-450.png');
+		background-size: 225px 134px;
 	}
 
 }
